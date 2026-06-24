@@ -15,3 +15,6 @@ Anyway, I'm going to store some assorted Brainfuck programs here. They're descri
 
 ## Reverse
 Accepts a space-terminated string, then prints it in reverse. "MadamImAdam " prints "madAmImadaM" and so on.
+
+## Hex_To_Bin
+Accepts a space-terminated hexadecimal string, then prints its equivalent in binary. Any character that isn't a digit or an uppercase A-E is treated as an F (e.g. "3F" "3X" and "3a" all output "0011 1111 ").
